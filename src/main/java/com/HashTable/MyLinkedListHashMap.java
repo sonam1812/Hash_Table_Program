@@ -1,6 +1,6 @@
 package com.HashTable;
 import java.util.ArrayList;
-public class MyLinkedListHashMap<K, V> {
+public class MyLinkedHashMap<K, V> {
 	private final int numBuckets;
 	ArrayList<MyLinkedList<K>> myBucketArray;
 
